@@ -1,0 +1,26 @@
+.slider-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container {
+    width: 60%;
+    display: flex;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    transition: all 500ms ease;
+}
+
+.slider-btn {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
